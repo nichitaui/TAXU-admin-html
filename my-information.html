@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TAXU | Admin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+  <script src="assets/jquery/jquery.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+  <script src="assets/plugins/popper/popper.min.js"></script>
+  <script src="assets/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- header section -->
+<header class="header">
+  <div class="header-logo">
+    <a href="#">
+      <img class="logo-img" src="assets/LOGO.png" alt="LOGO" />
+    </a>
+  </div>
+  <div class="header-content">
+    <div class="header-right">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="#">
+            <img src="assets/img/icons/bell.png" alt="bell icon" />
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#">
+            <img src="assets/img/icons/mini-wallet.png" alt="wallet icon" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+<!-- ./header section -->
+<!-- main section -->
+<div class="main">
+  <div class="sidebar">
+    <ul class="menu-list">
+      <li class="menu-item">
+        <a href="#">
+          <img class="menu-icon" src="assets/img/icons/book.png" alt="book icon" />
+          <div class="menu-text">Manual de app</div>
+        </a>
+      </li>
+      <li class="menu-item">
+        <a href="#">
+          <img class="menu-icon" src="assets/img/icons/book-open.png" alt="book-open icon" />
+          <div class="menu-text">Guía de ducciones</div>
+        </a>
+      </li>
+      <li class="menu-item">
+        <a href="#">
+          <img class="menu-icon" src="assets/img/icons/gear.png" alt="gear icon" />
+          <div class="menu-text">Configuración</div>
+        </a>
+      </li>
+      <li class="menu-item">
+        <a href="#">
+          <img class="menu-icon" src="assets/img/icons/database.png" alt="database icon" />
+          <div class="menu-text">Métodos de pago</div>
+        </a>
+      </li>
+      <li class="menu-item">
+        <a href="#">
+          <img class="menu-icon" src="assets/img/icons/information.png" alt="information icon" />
+          <div class="menu-text">Preguntas Frecuentes</div>
+        </a>
+      </li>
+      <li class="menu-item">
+        <a href="#">
+          <img class="menu-icon" src="assets/img/icons/support.png" alt="support icon" />
+          <div class="menu-text">Contactar despacho contable</div>
+        </a>
+      </li>
+      <li class="menu-item">
+        <a href="#">
+          <img class="menu-icon" src="assets/img/icons/user.png" alt="user icon" />
+          <div class="menu-text">Cerrar sesion</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="content">
+    <div class="container-fluid">
+      <div class="row py-4">
+        <div class="col-2">
+          <div class="widget-card">
+            <img src="assets/img/icons/informacion.png" alt="informacion" class="widget-card-img" />
+            <div class="widget-card-title">mi informaciòn</div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="widget-card">
+            <img src="assets/img/icons/files.png" alt="Declaracion" class="widget-card-img" />
+            <div class="widget-card-title">Declaracion anual</div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="widget-card">
+            <img src="assets/img/icons/document.png" alt="Declaracion" class="widget-card-img" />
+            <div class="widget-card-title">Documentos</div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="widget-card">
+            <img src="assets/img/icons/voucher.png" alt="Declaracion" class="widget-card-img" />
+            <div class="widget-card-title">comprobantes de pago</div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="widget-card">
+            <img src="assets/img/icons/procedure.png" alt="Declaracion" class="widget-card-img" />
+            <div class="widget-card-title">tramite</div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="widget-card">
+            <img src="assets/img/icons/amount.png" alt="Declaracion" class="widget-card-img" />
+            <div class="widget-card-title">deducciones</div>
+          </div>
+        </div>
+      </div>
+      <div class="row px-4">
+        <ol class="breadcrumb bg-white">
+          <li class="breadcrumb-item">
+            <img src="assets/img/icons/home.png" alt="home icon" />
+          </li>
+          <li class="breadcrumb-item">Mi informacion</li>
+        </ol>
+      </div>
+      <div id="my-information" class="container">
+        <div class="row">
+          <h4 class="mx-auto mb-3">Eliminar cuenta</h4>
+        </div>
+        <div class="row">
+          <div class="mx-auto">
+            <h5 class="mb-3"><span class="dot"></span>ELIMINAR TU CUENTA IMPLICARA:</h5>
+            <ul class="my-information-ul">
+              <li>Borrar toda información personal de nuestra base de datos.</li>
+              <li>Eliminar documentos guardados en nuestra base de datos.</li>
+              <li>Si deseas registrarte de nuevo. el proceso será igual al de nuevo usuario.</li>
+            </ul>
+            <h6 class="mx-auto">Ingresa tu mail y contraseña para confirmar.</h6>
+            <form class="w-min-400" id="account-delete-form">
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Tu correo electrónico">
+                <img class="input-icon" src="assets/img/icons/mail.png" alt="main-icon" />
+              </div>
+              <div class="form-group">
+                <label for="password">Contraseña:</label>
+                <input type="password" class="form-control" id="password" placeholder="Tu contraseña">
+                <img class="input-icon" src="assets/img/icons/lock.png" alt="lock-icon" />
+                <img class="input-icon-right" src="assets/img/icons/eye.png" alt="eye-icon" />
+              </div>
+              <button type="submit" class="btn btn-primary text-uppercase">borrar mi cuenta</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ./main section -->
+<!-- footer section -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-text">Todos los derechos reservados. <b>TAXU 2020</b>, México</div>
+  </div>
+</footer>
+<!-- ./footer section -->
+<!-- chat section -->
+<div class="chat">
+  <a href="#">
+    <img src="assets/img/icons/chat.png" alt="chat icon" />
+  </a>
+</div>
+<!-- ./chat section -->
+</body>
+</html>

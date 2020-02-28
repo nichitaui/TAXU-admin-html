@@ -1,0 +1,107 @@
+/* my-information css */
+#my-information h4 {
+    font-family: "Rounded Mplus 1c Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #3771FF;
+}
+#my-information h5 {
+    font-family: "Rounded Mplus 1c";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    align-items: center;
+    color: #40495C;
+}
+.dot {
+    display: inline-flex;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #3771FF;
+    margin: 0 10px 2px 0;
+}
+.my-information-ul {
+    padding-left: 10px;
+}
+.my-information-ul li {
+    font-family: "Rounded Mplus 1c";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 35px;
+    align-items: center;
+    color: #40495C;
+}
+.my-information-ul li::before {
+    content: "\25E6";
+    color: #3771FF;
+    padding: 0 10px;
+}
+#my-information h6 {
+    font-family: "Rounded Mplus 1c Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 25px;
+    align-items: center;
+    color: #40495C;
+    margin-top: 40px;
+    margin-bottom: 22px;
+}
+#account-delete-form {
+    position: relative;
+    width: 400px;
+}
+#account-delete-form .form-group {
+    position: relative;
+}
+#account-delete-form label {
+    font-family: "Rounded Mplus 1c Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 25px;
+    color: #40495C;
+}
+#account-delete-form .form-control {
+    height: 50px;
+    background: #E5F2FE;
+    border-radius: 5px;
+    padding-left: 50px;
+    font-family: "Rounded Mplus 1c";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+}
+#account-delete-form .input-icon {
+    position: absolute;
+    bottom: 12px;
+    left: 15px;
+}
+#account-delete-form .input-icon-right {
+    position: absolute;
+    right: 20px;
+    bottom: 12px;
+}
+#account-delete-form .btn {
+    width: 400px;
+    height: 50px;
+    background: #3771FF;
+    border-radius: 5px;
+    font-family: "Rounded Mplus 1c Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 40px;
+}

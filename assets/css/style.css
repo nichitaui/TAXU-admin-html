@@ -13,6 +13,11 @@
   src: url("fonts/Rounded-Mplus-1c/roundedmplus1c/RoundedMplus1c-Bold.ttf");
 }
 
+@font-face {
+  font-family: "Rounded Mplus 1c";
+  src: url("fonts/Rounded-Mplus-1c/roundedmplus1c/RoundedMplus1c-Regular.ttf");
+}
+
 body {
   /* background-color: #E5E5E5; */
   background-color: #FFFFFF;
@@ -67,10 +72,13 @@ header .header-content .header-right .nav-list .nav-item {
   display: flex;
 }
 .main .sidebar {
-  position: relative;
+  position: fixed;
   width: 280px;
   height: 100vh;
   border-right: solid 2px #DFF0FF;
+  z-index: 1;
+  padding-bottom: 190px;
+  overflow: auto;
 }
 .main .sidebar .menu-list {
   padding: 20px 10px 0px 40px;
@@ -79,7 +87,7 @@ header .header-content .header-right .nav-list .nav-item {
   padding: 15px 0;
   border-bottom: solid 1px #DFF0FF;
 }
-.main .sidebar .menu-list .menu-item svg {
+.main .sidebar .menu-list .menu-item svg, .main .sidebar .menu-list .menu-item .menu-icon {
   position: absolute;
 }
 .main .sidebar .menu-list .menu-item .menu-text {
@@ -92,6 +100,7 @@ header .header-content .header-right .nav-list .nav-item {
 .main .content {
   position: relative;
   width: calc(100% - 280px);
+  margin-left: 280px;
 }
 .main .content .widget-card {
   background: #FFFFFF;
@@ -106,7 +115,6 @@ header .header-content .header-right .nav-list .nav-item {
   position: absolute;
 }
 .main .content .widget-card .widget-card-img {
-  width: 45px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -131,7 +139,7 @@ header .header-content .header-right .nav-list .nav-item {
   line-height: 30px;
   color: #3771FF;
 }
-.main .content .breadcrumb .breadcrumb-item svg {
+.main .content .breadcrumb .breadcrumb-item svg, .main .content .breadcrumb .breadcrumb-item img {
   position: relative;
   top: -3px;
 }
@@ -164,6 +172,7 @@ footer {
   bottom: 0px;
   background: #3771FF;
   color: #FFFFFF;
+  z-index: 10;
 }
 footer .footer-text {
   text-align: center;
@@ -202,6 +211,7 @@ ul li {
 .w-min-400 {
   min-width: 400px;
 }
+
 /* bootstrap overwrite css */
 .breadcrumb-item+.breadcrumb-item {
   padding: 0px;
