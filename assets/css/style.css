@@ -64,9 +64,10 @@ header .header-content .header-right .nav-list .nav-item {
 .main {
   padding-top: 120px;
   padding-bottom: 70px;
+  display: flex;
 }
 .main .sidebar {
-  position: fixed;
+  position: relative;
   width: 280px;
   height: 100vh;
   border-right: solid 2px #DFF0FF;
@@ -83,10 +84,14 @@ header .header-content .header-right .nav-list .nav-item {
 }
 .main .sidebar .menu-list .menu-item .menu-text {
   padding-left: 40px;
+  font-family: "Rounded Mplus 1c Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
 }
 .main .content {
   position: relative;
-  padding-left: 280px;
+  width: calc(100% - 280px);
 }
 .main .content .widget-card {
   background: #FFFFFF;
@@ -112,6 +117,11 @@ header .header-content .header-right .nav-list .nav-item {
   margin-bottom: auto;
   display: block;
   text-transform: uppercase;
+  font-family: "Rounded Mplus 1c Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
 }
 .main .content .breadcrumb .breadcrumb-item {
   font-family: "Rounded Mplus 1c Bold";
@@ -124,6 +134,25 @@ header .header-content .header-right .nav-list .nav-item {
 .main .content .breadcrumb .breadcrumb-item svg {
   position: relative;
   top: -3px;
+}
+.main .content h4 {
+  font-family: "Rounded Mplus 1c Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+.main .content .btn-lg {
+  height: 60px;
+  font-family: "Rounded Mplus 1c Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 25px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* footer css */
@@ -174,11 +203,14 @@ ul li {
   min-width: 400px;
 }
 /* bootstrap overwrite css */
+.breadcrumb-item+.breadcrumb-item {
+  padding: 0px;
+}
 .breadcrumb-item+.breadcrumb-item::before {
   display: inline-block;
-  padding: 0 1rem;
+  padding: 0 30px;
   color: #3871ff;
-  content: ">";
+  content: url(../img/icons/arrow-right.png);
 }
 .text-primary {
   color: rgb(136, 146, 172);

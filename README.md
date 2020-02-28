@@ -1,4 +1,4 @@
 # Booststrap Template For Restaurant Mobile App
 
 ## Screenshot
-![Restaurant Mobile App](Screenshot.png)
+![Restaurant Mobile App](screenshot.png)
