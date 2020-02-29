@@ -105,3 +105,97 @@
     color: #FFFFFF;
     margin-top: 40px;
 }
+
+/* register css */
+.bg-register {
+    background-image: url(../img/bg/bg-register.png);
+    /* height: 100vw; */
+}
+#register {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding-top: 150px;
+}
+#register-form {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 70px;
+    width: 540px;
+}
+#register-form h4 {
+    font-family: "Rounded Mplus 1c Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #40495C;
+}
+#register-form .form-group {
+    position: relative;
+    width: 400px;
+}
+#register-form .form-group label {
+    font-family: "Rounded Mplus 1c Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 25px;
+    align-items: center;
+    color: #40495C;
+}
+#register-form .form-group .form-control {
+    background: #E5F2FE;
+    border-radius: 5px;
+    width: 400px;
+    height: 50px;
+    padding-left: 50px;
+}
+#register-form .form-check {
+    padding: 0px;
+}
+#register-form .form-check label {
+    font-family: "Rounded Mplus 1c";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    align-items: center;
+    color: #40495C;
+    padding-bottom: 20px;
+}
+#register-form .form-button-group {
+    width: 300px;
+}
+#register-form .form-button-group .btn {
+    background: #3771FF;
+    width: 300px;
+    height: 50px;
+}
+#register-form .form-button-group label {
+    font-family: "Rounded Mplus 1c Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    color: #40495C;
+    text-align: center;
+    padding: 10px 0;
+}
+#register-form .input-icon {
+    position: absolute;
+    bottom: 12px;
+    left: 15px;
+}
+#register-form .input-icon-right {
+    position: absolute;
+    bottom: 12px;
+    right: 20px;
+}
+#register .hero-img {
+    margin-bottom: 70px;
+}
