@@ -208,3 +208,9 @@
 #register .hero-img {
     margin-bottom: 70px;
 }
+@media (min-width: 1921px) {
+    #register .hero-img {
+        margin-bottom: 70px;
+        border-radius: 50%;
+    }
+}

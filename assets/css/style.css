@@ -188,26 +188,6 @@ footer .footer-text {
   right: 180px;
 }
 
-/* common css */
-.color-green {
-  color: #19A5B6;
-}
-.color-gray {
-  color: #C4C4C4;
-}
-.color-red {
-  color: #FF414D;
-}
-ul {
-  padding: 0;
-}
-ul li {
-  list-style: none;
-}
-.w-min-400 {
-  min-width: 400px;
-}
-
 /* The checkbox-container */
 .checkbox-container {
   display: block;

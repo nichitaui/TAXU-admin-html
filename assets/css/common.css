@@ -1,0 +1,42 @@
+/* common css */
+.color-green {
+    color: #19A5B6;
+}
+.color-gray {
+    color: #C4C4C4;
+}
+.color-red {
+    color: #FF414D;
+}
+ul {
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+.w-min-400 {
+    min-width: 400px;
+}
+@media(min-width: 1800px) {
+    .grid-xl-6 {
+        display: grid;
+        grid-template-columns: 16.666% 16.666% 16.666% 16.666% 16.666% 16.666%;
+    }
+    .grid-xl-6 .grid-item {
+        padding: 10px;
+    }
+}
+@media(min-width: 992px) and (max-width: 1799px) {
+    .grid-lg-3 {
+        display: grid;
+        grid-template-columns: 33.333% 33.333% 33.333%;
+    }
+    .grid-lg-3 .grid-item {
+        padding: 10px;
+    }
+}
+@media(min-width: 992px) and (max-width: 1050px) {
+    .grid-lg-3 .grid-item .widget-card .widget-card-title {
+        font-size: 13px !important;
+    }
+}
