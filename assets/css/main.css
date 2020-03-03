@@ -110,6 +110,15 @@
 .bg-register {
     background-image: url(../img/bg/bg-register.png);
     /* height: 100vw; */
+    background-repeat: no-repeat;
+}
+@media (min-width: 1921px) {
+    .bg-register {
+        background-image: url(../img/bg/bg-register.png);
+        /* height: 100vw; */
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
 }
 #register {
     position: relative;
